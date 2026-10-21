@@ -35,7 +35,7 @@
 ## 安装
 
 ```bat
-git clone https://github.com/<你的用户名>/ResonanceLauncher.git
+git clone https://github.com/yuanlvsx/-.git ResonanceLauncher
 cd ResonanceLauncher
 
 python -m venv .venv
@@ -126,7 +126,7 @@ ResonanceLauncher/
 git init
 git add .
 git commit -m "initial commit"
-git remote add origin https://github.com/<你的用户名>/ResonanceLauncher.git
+git remote add origin https://github.com/yuanlvsx/-.git
 git push -u origin main
 ```
 
@@ -152,3 +152,6 @@ git push -u origin main
 - 默认「鼠标穿透」开启，点击会落到下面的窗口；要拖动叠加层，去设置里关掉穿透、并把播放位置选成「自定义」。
 - 浏览器、更新器会不断派生同名子进程，所以默认只在"该程序原本没在运行"时触发；确需每次都触发可在规则里勾选对应选项。
 
+注意：以上全部内容都是AI创作
+PS：说一点题外话，如果我的全部任务都交给AI去执行的话，我感受不到任何创造的喜悦。之前我会为搭建一ncatbot为框架的qq机器人花上一整天时间，当我的机器人能够执行指令的时候，我真的很开心。然后之后我试着去写插件，虽然同样也是使用了AI，但我能明显感觉到我自己在参与其中，我有一种自己在很好使用AI的感觉。可是当我真正试着放手全部让AI去执行的时候，我只感到一种丧失感，我什么都没有参与，可是AI把一切都做的很好，至少我从门外汉的角度看起来如此。我什么都不是，或许我才是被使用的工具，我只是为了给AI提示词让他执行任务才存在的（未来甚至都没这个必要了）。唉唉，我感到挺难过的，虽然也无能为力就是了。回到这个工具的话，虽然没有完美实现我想象中的效果，可是碍于手上也确实没有游戏素材，也就止步于此吧，至少也算实现了基本的需求，AI甚至还给我进行了适当拓展。感谢能听我发牢骚到这里的你，谢谢。
+Ciallo～(∠・ω< )⌒★
