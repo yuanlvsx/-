@@ -1,0 +1,16 @@
+# 金枝共鸣 · 启动器 —— 运行依赖
+# 安装：pip install -r requirements.txt
+# 环境：Windows 10 / 11 (64 位)，Python 3.10+
+
+# 界面与透明叠加层（Qt 6）
+PySide6>=6.5,<7
+
+# 视频解码 + 实时色度抠像（自带 FFmpeg，mp4/mov/webm/mkv/avi 均可读）
+# 若只需要命令行/无 GUI 的变体，可换成 opencv-python-headless，本工具不做 imshow
+opencv-python>=4.8,<6
+
+# 图像运算
+numpy>=1.24,<3
+
+# 进程监听（程序启动检测）
+psutil>=5.9,<8

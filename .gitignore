@@ -1,0 +1,37 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# ---- 运行时生成（含个人数据，不要提交）----
+# config.json 记录本机的动画列表、触发规则、程序路径
+config.json
+config.tmp
+# assets/ 是导入素材的副本，涉及版权与体积
+assets/
+# 缩略图缓存，可随时删除
+cache/
+
+# ---- 调试 / 自检产物 ----
+*.log
+selftest_*.png
+burst_*.png
+seam_*.png
+grid_*.png
+full*.png
+preview_*.png
+v_*.png
+zoom_*.png
+dlg_*.png
+contact_*.png
+*.bak
+
+# ---- 编辑器 / 系统 ----
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+.DS_Store
